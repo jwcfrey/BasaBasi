@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playwrite+GB+S+Guides:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Rubik+Distressed&family=Vibes&display=swap');
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('./src/fonts/Maison_Neue_Book.ttf')
+}
+
+/* Keyframes */
+
+@keyframes showRight  {
+    100% {
+        width: 0;
+    }
+}
+
+/* index.php */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    cursor: default;
+}
+
+body {
+    background: #fff;
+    color: #333;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.header a img {
+    width: 55px;
+    height: 55px;
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #8C4DF7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #8C4DF7;
+    animation: showRight .7s ease forwards;
+    animation-delay: .4s;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 32.5px;
+    position: relative;
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    bottom: -3px; /* Garis muncul tepat di bawah huruf */
+    left: 0; /* Dimulai dari huruf pertama */
+    width: 0;
+    height: 2px; /* Tinggi garis */
+    background-color: #8C4DF7; /* Warna garis */
+    transition: width 0.3s ease-in-out; /* Animasi saat hover */
+}
+
+.navbar a:hover::after {
+    width: 100%; /* Panjang garis dari huruf pertama */
+}
+
+.home {
+    background: url('../image/header1.png') no-repeat;
+    background-size: 550px 550px;
+    background-position: 85% 54%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    position: relative;
+    font-size: 58px;
+    font-weight: 700;
+    color: #333;
+    line-height: 1.2;
+    letter-spacing: .5px;
+}
+
+.home-content h1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #8C4DF7;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1s;
+    z-index: 1;
+}
+
+.home .home-content h1 header #basiSpan {
+    color: #8C4DF7;   
+}
+
+.home-content h3 {
+    position: relative;
+    padding-top: .5em;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.home-content h3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #8C4DF7;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.4s;
+}
+
+.home-content p {
+    position: relative;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0 40px;
+}
+
+.home-content p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #8C4DF7;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.75s;
+}
+
+.home-content .btn-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.home-content .btn-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.9s;
+    z-index: 2;
+}
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(45deg, #8C4DF7, #5A28D8);
+    border: 1px solid #8C4DF7;
+    border-radius: 8px;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-box a:nth-child(2) {
+    background: #fff;
+    color: #8C4DF7;
+}
+
+.btn-box a:nth-child(2):hover {
+    color: #fff;
+}
+
+.btn-box a:nth-child(2)::before {
+    background: linear-gradient(45deg, #8C4DF7, #5A28D8);
+}
+
+.btn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #fff;
+    z-index: -1;
+    transition: all .5s ease-in-out;
+}
+
+.btn-box a:hover::before {
+    width: 100%;
+}
+
+.btn-box a:hover {
+    color: #8C4DF7;
+}
+
+.home-sci {
+    position: absolute;
+    bottom: 50px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-sci::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    animation: showRight 1s ease forwards;
+    animation-delay: 2.3s;
+    z-index: 2;
+}
+
+.home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #8C4DF7;
+    color: #8C4DF7;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.home-sci a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #8C4DF7;
+    z-index: -1;
+    transition: all 0.5s ease-in-out;
+}
+
+.home-sci a:hover {
+    color: #fff;
+}
+
+.home-sci a:hover::before {
+    width: 100%;
+}
+
+.home-img {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 500px;
+    height: 100%;
+    background: transparent;
+    transition: 3s;
+    pointer-events: none;
+}
+
+.home-img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150%;
+    height: 100%;
+    background: #fff;
+    animation: showRight 2.1s ease forwards;
+    animation-delay: 1s;
+    z-index: 1000;
+}
