@@ -19,16 +19,16 @@
         <div class="home-content">
             <h1><header>Basa<span id="basiSpan"></span></header></h1>
             <h3>Ngobrol Tanpa Batas, Kapan Saja, Di Mana Saja</h3>
-            <p>BasaBasi hadir untuk kaum Gen-Z yang nggak mau kehilangan momen seru dalam obrolan bareng temen, sahabat, apalagi doi. Chat realtime yang cepat dan mudah, jadi setiap percakapan tetap nyambung tanpa gangguan. Ayo, mulai ngobrol sekarang dan rasakan kenyamanan chat tanpa batas!"</p>
+            <p>BasaBasi. tempat nongkrong virtual paling asik buat Gen Z! Nggak ada lagi drama chat delay, ngobrol sama temen, sahabat, atau gebetan jadi makin lancar ngebut super. Dengan fitur chat realtime yang cepat dan simpel, kamu nggak bakal ketinggalan momen seru. Yuk, mulai ngobrol sekarang, bikin percakapan makin nyambung, vibes-nya dapet, dan pastinya bebas gangguan. Karena BasaBasi bukan cuma aplikasi, tapi ruang ngobrol nyaman buat kamu!</p>
             <div class="btn-box">
                 <a href="signup.php">Daftar</a>
                 <a href="login.php">Masuk</a>
             </div>
         </div>
         <div class="home-sci">
-            <a href=""><i class="fab fa-google-drive"></i></a>
-            <a href=""><i class='bx bxl-github'></i></a>
-            <a href=""><i class='bx bxl-youtube'></i></a>
+            <a href="https://drive.google.com/"><i class="fab fa-google-drive"></i></a>
+            <a href="https://github.com/"><i class='bx bxl-github'></i></a>
+            <a href="https://www.youtube.com/"><i class='bx bxl-youtube'></i></a>
         </div>
         <span class="home-img"></span>
     </section>

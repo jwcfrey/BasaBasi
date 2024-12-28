@@ -15,7 +15,7 @@
                 // Delete session and redirect to login.php
                 session_unset();
                 session_destroy();
-                header("Location: /Realtime/login.php");
+                header("Location: /BasaBasi/login.php");
                 exit();
             } else {
                 echo "Sepertinya ada masalah, silahkan refresh halaman";
@@ -25,7 +25,7 @@
             exit();
         }
     } else {
-        header("Location: /Realtime/login.php");
+        header("Location: /Basi/login.php");
         exit();
     }
 ?>
