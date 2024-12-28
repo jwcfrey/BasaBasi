@@ -76,7 +76,6 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`user_id`, `unique_id`, `fname`, `lname`, `email`, `password`, `img`, `status`) VALUES
 (11, 776468573, 'Himura', 'Kenshin', 'kenshin@gmail.com', 'kenshin', '1735091388kenshin.png', 'Offline'),
-(12, 255524078, 'Bondan', 'Banuaji', 'bondanbanuaji@gmail.com', 'bondan', '1735092450WhatsApp Image 2024-10-30 at 06.08.23_e20ffef5.jpg', 'Online'),
 (14, 360792038, 'Wu', 'Duoyun', 'wuduoyun@gmail.com', 'wuduoyun', '1735178611braces.jpg', 'Offline'),
 (15, 1296955151, 'Mal', 'Sook', 'malsook@gmail.com', 'malsook', '1735196500malsook.jpg', 'Offline'),
 (16, 35254829, 'Kim Jiwon', '(김지원)', 'kimjiwon@gmail.com', 'kimjiwon', '1735207033korean.jpg', 'Offline'),
@@ -84,7 +83,7 @@ INSERT INTO `users` (`user_id`, `unique_id`, `fname`, `lname`, `email`, `passwor
 (18, 1536843893, 'Mas', 'Rusdi', 'rusdi@gmail.com', 'rusdi', '1735207826rusdi.jpg', 'Offline'),
 (19, 676628315, 'Windah', 'Batubara', 'windah@gmail.com', 'windah', '1735207868windah.jpg', 'Offline'),
 (20, 1290058785, 'Kucing', 'Akmal', 'kucingakmal@gmail.com', 'kucingakmal', '1735208086akmal.jpg', 'Offline'),
-(21, 840778463, 'Rifky', 'Firmansyah', 'rifky@gmail.com', 'rifky', '1735214918braces3.jpg', 'Offline');
+(21, 840778463, 'Rifky', 'Bagus', 'rifky@gmail.com', 'rifky', '1735214918braces3.jpg', 'Offline');
 
 --
 -- Indexes for dumped tables
