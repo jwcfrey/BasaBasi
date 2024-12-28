@@ -1,4 +1,3 @@
-Berikut adalah README keren dan kekinian untuk proyek BasaBasi, berdasarkan struktur direktori yang Anda tampilkan:
 ________________________________________
 BasaBasi - Realtime Chat Website
 BasaBasi is a modern, sleek, and user-friendly real-time chat website designed to keep conversations flowing effortlessly. Perfect for connecting with friends, colleagues, or anyone, anytime, anywhere.
