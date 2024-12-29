@@ -81,16 +81,16 @@ body {
 .navbar a::after {
     content: '';
     position: absolute;
-    bottom: -3px; /* Garis muncul tepat di bawah huruf */
-    left: 0; /* Dimulai dari huruf pertama */
+    bottom: -3px;
+    left: 0; 
     width: 0;
-    height: 2px; /* Tinggi garis */
-    background-color: #8C4DF7; /* Warna garis */
-    transition: width 0.3s ease-in-out; /* Animasi saat hover */
+    height: 2px; 
+    background-color: #8C4DF7; 
+    transition: width 0.3s ease-in-out;
 }
 
 .navbar a:hover::after {
-    width: 100%; /* Panjang garis dari huruf pertama */
+    width: 100%;
 }
 
 .home {
@@ -274,10 +274,10 @@ body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background: transparent;
-    border: 1px solid #8C4DF7;
+    border: 1.5px solid #8C4DF7;
     color: #8C4DF7;
     border-radius: 50%;
     font-size: 20px;

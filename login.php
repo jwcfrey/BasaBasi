@@ -14,7 +14,7 @@ if (isset($_SESSION['unique_id'])) { //if user is logged in
             <form action="login.php">
                 <div class="error-txt"></div>
                 <div class="field input">
-                    <label>Masukkan Email Kamu</label>
+                    <label>Masukkan Email</label>
                     <input type="text" name="email" placeholder="Email" required>
                 </div>
                 <div class="field input">
@@ -26,7 +26,7 @@ if (isset($_SESSION['unique_id'])) { //if user is logged in
                     <input type="submit" value="Masuk">
                 </div>
             </form>
-            <div class="link">Kamu belum punya akun? <a href="index.php">Yuk daftar disini</a></div>
+            <div class="link">Kamu belum punya akun? <a href="signup.php">Yuk daftar disini</a></div>
         </section>
     </div>
         <div class="backhome">
